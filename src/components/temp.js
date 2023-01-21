@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./style.css"
 const Temp = () => {
-  const [searchValue,  setSearchValue] = useState("bannu")
+  const [searchValue,  setSearchValue] = useState("")
   const [tempInfo, setTempInfo] = useState({})
   const getWeatherInfo=async()=>{
    try {
