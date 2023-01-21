@@ -32,7 +32,7 @@ function Weather({tempInfo}) {
         }
      }
     }, [weathermood])
-    // converting time  
+    // converting time jjjj 
     let seconds = sunset
     let date = new Date(seconds*1000)
     let timeStr= `${date.getHours()}:${date.getMinutes()}`
